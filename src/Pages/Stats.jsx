@@ -1,5 +1,18 @@
-function Stats({ workouts }) {
-  const totalSets = workouts.length;
+function Stats({ weeks }) {
+  // Tüm haftaları ve günleri tarayıp toplam antrenman sayısını hesaplıyoruz
+  let totalSets = 0;
+  
+  if (weeks && weeks.length > 0) {
+    weeks.forEach(week => {
+      if (week.days && week.days.length > 0) {
+        week.days.forEach(day => {
+          if (day.workouts && day.workouts.length > 0) {
+            totalSets += day.workouts.length;
+          }
+        });
+      }
+    });
+  }
   
   return (
     <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
