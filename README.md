@@ -1,21 +1,16 @@
 
 # Progress Keeper - Fitness ve Antrenman Takip Uygulaması
+**Canlı Site (Live Demo):** [https://progresskeeper.netlify.app/]
 
 Bu proje, sporcuların ağırlık antrenmanlarını ve "progressive overload" (kademeli aşırı yüklenme) gelişimlerini takip etmeleri için tasarlanmış, modern bir frontend web uygulamasıdır. Proje, Modern Javascript kütüphanelerinden **ReactJS** ve **Vite** kullanılarak geliştirilmiştir.
 
 ## Özellikler
 
 * **Kapsamlı CRUD Operasyonları:** Antrenman programları için hafta, gün ve hareket (set/ağırlık) ekleme, listeleme, güncelleme ve silme işlemleri.
-
-
 * **Kalıcı Veri Yönetimi:** Uygulamaya girilen tüm antrenman verileri tarayıcının `LocalStorage` API'si kullanılarak kaydedilir, böylece sayfa yenilendiğinde veri kaybı yaşanmaz.
-
-
 * **Gelişmiş Şablonlama:** Önceki haftanın antrenman programını tek tuşla yeni haftaya kopyalama özelliği.
-* **İstatistik ve Raporlama:** Kullanıcının toplam antrenman hacmini ve kayıtlı set sayısını anlık olarak hesaplayan istatistik sayfası (React Router DOM ile yönlendirme).
+* **İstatistik ve Raporlama:** Kullanıcının sisteme girdiği toplam kayıtlı set sayısını anlık olarak hesaplayan ve gösteren istatistik sayfası (React Router DOM ile yönlendirme).
 * **Modern Tasarım:** **Tailwind CSS** kullanılarak tamamen responsive (mobil uyumlu) ve karanlık mod (dark theme) konseptinde kullanıcı dostu bir arayüz tasarlanmıştır.
-
-
 
 ## Kurulum ve Çalıştırma Yönergesi
 
@@ -36,16 +31,10 @@ This project is a modern frontend web application designed for athletes to track
 ## Features
 
 * **Comprehensive CRUD Operations:** Create, read, update, and delete functions for workout weeks, days, and individual exercises (sets/weights).
-
-
 * **Persistent Data Management:** All workout data is stored locally in the browser using the `LocalStorage` API, preventing data loss upon page refresh.
-
-
 * **Advanced Templating:** A one-click feature to copy the previous week's workout routine to a new week.
-* **Statistics & Reporting:** A dedicated stats page (using React Router DOM) that dynamically calculates the user's total workout volume and logged sets.
+* **Statistics & Reporting:** A dedicated stats page (using React Router DOM) that dynamically calculates and displays the user's total logged sets.
 * **Modern UI Design:** A fully responsive and user-friendly interface designed with a dark theme concept using **Tailwind CSS**.
-
-
 
 ## Installation and Setup Guide
 
@@ -56,7 +45,4 @@ Follow these steps to run the project locally on your machine:
 2. **Start the Project:** Run the following command to start the Vite development server:
 `npm run dev`
 3. **View the App:** Click the `http://localhost:5173` link that appears in the terminal to view the project in your browser.
-
----
-
 

@@ -1,5 +1,5 @@
 **Progress Keeper - Proje Tanıtım Dokümanı**
-
+**Canlı Site (Live Demo):** [https://progresskeeper.netlify.app/]
 ## 1. Projenin Amacı
 
 Bu proje, ReactJS ve Vite teknolojileri kullanılarak sporcuların ağırlık antrenmanlarını dijital ortamda düzenli olarak kayıt altına alabilmesi için geliştirilmiş bir frontend web uygulamasıdır.
